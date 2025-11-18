@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "OlivierMwatsiDRepChainTester",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "",
+      "sha256": "c9108fc26adfc48dc47632206235fb27d6255a5520e5f1fa0fceaa41c9a0aa28"
+    },
+    "motivations": "I believe every ADA holder in the Cardano ecosystem has the power to participate in governing the blockchain. \nAs a DRep, my mission is to represent ADA holders who want to engage in governance but lack the time or full understanding of how to vote. Delegating to me ensures that your voice and intentions are effectively carried through the Cardano network",
+    "objectives": "I believe every ADA holder in the Cardano ecosystem has the power to participate in governing the blockchain. \nAs a DRep, my mission is to represent ADA holders who want to engage in governance but lack the time or full understanding of how to vote.\n Delegating to me ensures that your voice and intentions are effectively carried through the Cardano network",
+    "paymentAddress": "addr_test1qp7xh85kfvjvym6r2575n79cxwr3k8ezm2r0qvdh9982cwv44gkrpeqj5hy0x4za49s5hfg2uwygmshh4ryfskg7y4gq73y7xe",
+    "qualifications": "- Expérience en gouvernance Cardano : Depuis l’annonce de l’ère Voltaire, j’ai participé à de nombreux ateliers sur la gouvernance, notamment les CIP-1694 workshops, en ligne et en présentiel, ce qui m’a permis de bien comprendre le processus décisionnel de la blockchain Cardano.\n\n- Expertise technique : Je suis développeur Cardano depuis 2023, ce qui me donne une solide compréhension des aspects techniques et des mécanismes sous-jacents de la blockchain.\n\n- Engagement communautaire : Membre actif de l’écosystème Cardano depuis 2021, je suis familiarisé avec les besoins et attentes des détenteurs d’ADA et je m’efforce de représenter leur voix dans les décisions de gouvernance.\n\n- Capacité à représenter et guider : Je souhaite aider les détenteurs d’ADA qui veulent participer aux actions de gouvernance mais manquent de temps ou de connaissance, en m’assurant que leurs intentions sont bien reflétées dans le réseau Cardano.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Twitter",
+        "uri": "https://x.com/OlivierMWATSIM1?s=20"
+      }
+    ]
+  }
+}
